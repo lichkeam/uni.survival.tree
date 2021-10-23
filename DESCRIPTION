@@ -1,0 +1,19 @@
+Package: uni.survival.tree
+Type: Package
+Title: A survival tree-based method for univariate feature selection (Survival analysis)
+Version: 1.2
+Author: Wei-Chern HSU
+Maintainer: Wei-Chern HSU <lichkeam@gmail.com>
+Description: Usage of tree structure combine with test statistics to analyze some important features and list out the ranking of risk.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports:
+    compound.Cox
+Depends:
+    survival
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
